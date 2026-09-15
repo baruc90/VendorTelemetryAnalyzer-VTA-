@@ -18,8 +18,41 @@ Importante: la identificación mediante dominio constituye un indicador de activ
 </div></br>
 <strog>El archivo funciona como postdissector de Wireshark. Los hostnames listados son normalizados y comparados con el registro de dominios.</strog>
 
+<h3>Requisitos</h3>
+<h4>Software</h4>
+<ul>
+  <li>Wireshark (5.2 version testeada)</li>
+  <li>Lua(incluido en la distribución de Wireshark)</li>
+  <li>Npcap</li>
+</ul>
+<h3>Instalación</h3>
+Descarga o clona el repositorio:
 
+```
+git clone https://github.com/baruc90/VendorTelemetryAnalyzer-VTA-.git
+cd VendorTelemetryAnalyzer-VTA-
+```
+Copia smarttv.lua al directorio de plugins personales de Wireshark.
 
+La ubicación depende del sistema operativo.
 
+En Wireshark puede comprobarse el directorio correspondiente desde:
+
+Help → About Wireshark → Folders
+<img width="910" height="845" alt="Captura de pantalla 01" src="https://github.com/user-attachments/assets/88e8768b-bb19-42ac-84d4-bab305c38548" />
+
+Una vez instalado el script, reinicia Wireshark.
+
+Comprueba que el plugin se haya cargado correctamente mediante:
+
+Help → About Wireshark → Plugins
+
+* Algunas veces la carpeta plugin no está creada, para ello puedes crearla manualmente con el nombre de "plugin", debería quedar así.
+  C:\Users\(Your-username)\AppData\Roaming\Wireshark\plugins
+Comprueba que el plugin se haya cargado correctamente mediante:
+
+Help → About Wireshark → Plugins
+  
+<img width="917" height="847" alt="Captura de pantalla 02" src="https://github.com/user-attachments/assets/0f556b77-a317-451a-a14b-c33cb7a35d48" />
 
 
