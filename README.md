@@ -13,8 +13,11 @@ VTA utiliza un registro de dominios asociado a diferentes fabricantes y platafor
 Importante: la identificación mediante dominio constituye un indicador de actividades.
 <h3>Arquitectura</h3>
 
-![Image](https://github.com/user-attachments/assets/b67c22fa-d799-442f-9c1e-031a04b87040)
-<img src="(https://github.com/user-attachments/assets/b67c22fa-d799-442f-9c1e-031a04b870401" width="1200" alt="Image">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b67c22fa-d799-442f-9c1e-031a04b870401" height="500" alt="Image">
+</div></br>
+<strog>El archivo funciona como postdissector de Wireshark. Los hostnames listados son normalizados y comparados con el registro de dominios.</strog>
+
 
 
 
