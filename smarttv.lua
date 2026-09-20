@@ -10,7 +10,7 @@ smartv_proto.fields = { pf_event, pf_channel, pf_content }
 local http_host_field = Field.new("http.host")
 local http_file_data = Field.new("http.file_data")
 
-TABLAS DE DOMINIOS
+--TABLAS DE DOMINIOS
 
 local telemetry_domains = {
     -- LG (webOS).
