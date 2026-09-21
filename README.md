@@ -57,7 +57,7 @@ Help → About Wireshark → Plugins
 
 <h3>Pruebas</h3>
 
-Ejecuta Wireshark capturando en loopback. (puedes filtrar)
+Ejecuta Wireshark capturando en loopback. (puedes filtrar por smarttvtelem)
 
 si deseas verificar el correcto funcionamiento sigue los pasos.
 Terminal 1: (mantenla abierta).
@@ -65,9 +65,13 @@ Terminal 1: (mantenla abierta).
 ```
 python -m http.server 8000
 ```
+
 Terminal 2: 
 ```
 curl.exe -H "Host: test.samsungacr.com" http://127.0.0.1:8000. 
 ```
 (estos dominos son los contenidos en el .lua)
+resultado:
 
+<img width="1920" height="1020" alt="WIRESHARK01" src="https://github.com/user-attachments/assets/433e48fd-d819-4d8a-a288-9c0ea99949d2" />
+</br>
