@@ -55,4 +55,19 @@ Help → About Wireshark → Plugins
   
 <img width="917" height="847" alt="Captura de pantalla 02" src="https://github.com/user-attachments/assets/0f556b77-a317-451a-a14b-c33cb7a35d48" />
 
+<h3>Pruebas</h3>
+
+Ejecuta Wireshark capturando en loopback. (puedes filtrar)
+
+si deseas verificar el correcto funcionamiento sigue los pasos.
+Terminal 1: (mantenla abierta).
+
+```
+python -m http.server 8000
+```
+Terminal 2: 
+```
+curl.exe -H "Host: test.samsungacr.com" http://127.0.0.1:8000. 
+```
+(estos dominos son los contenidos en el .lua)
 
